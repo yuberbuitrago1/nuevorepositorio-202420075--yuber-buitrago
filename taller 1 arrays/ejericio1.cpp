@@ -4,13 +4,7 @@ using namespace std;
 
 void employees(){
 
-    string employees[4];
-
-    cout << "ingrese el nombre de los 4 empleados: " << endl;
-    cin >> employees[0];
-    cin >> employees[1];
-    cin >> employees[2];
-    cin >> employees[3];
+    string employees[4] = {"Ana", "Luis", "María", "Pedro"};
 
     for (int i = 0; i < 4; i++)
     {
