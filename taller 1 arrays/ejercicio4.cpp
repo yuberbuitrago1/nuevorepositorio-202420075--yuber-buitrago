@@ -11,6 +11,7 @@ void evenAndOdd(){
 
     for (int i = 0; i < 8; i++)
     {
+        cout << "lista de numeros: " << values[i] << endl;
         if (values[i] % 2 == 0)
         {
             counterEven++;
@@ -19,8 +20,8 @@ void evenAndOdd(){
         {
             counterOdd++;
         }
-        
     }
+
     cout << "cantidad de numeros pares: " << counterEven << endl;
     cout << "cantidad de numeros impares: " << counterOdd << endl;
 

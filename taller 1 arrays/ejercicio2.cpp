@@ -4,24 +4,19 @@ using namespace std;
 
 void gradesStudents(){
 
-    float grades[5];
-
-    cout << "ingrese us notas: " << endl;
-    cin >> grades[0];
-    cin >> grades[1];
-    cin >> grades[2];
-    cin >> grades[3];
-    cin >> grades[4];
+    float grades[5] = {3.5, 4.0, 2.8, 3.9, 4.2};
+    float sumGrades = 0;
 
 
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 5; i++)
     {
-        float promediumGrades = (grades[0] + grades[1] + grades[2] + grades[3] + grades[4]) / 5;
-        cout << promediumGrades;
+        float grade = grades[i];
+        // sumGrades += grade;
+        sumGrades = sumGrades + grade;
 
     }
     
-
+    cout << "el promedio de notas es de: "<< sumGrades / 5 << endl;
 }
 
 int main(){
