@@ -12,7 +12,7 @@ void totalFinesForCity(){
     cout << "de que ciudad quiere ver las multas:" << endl;
     cout << "Tunja " << endl << "Bogotá" << endl << "Medellín" << endl << "Cali" << endl << endl;
     cout << "*NOTA: !!ESCRIBIR DE LA MISMA MANERA EN LA QUE SE EN PANTALLA, CON TILDES Y MAYUSCULAS!!*" << endl;
-    cout << "ingrese el numero de la ciudad: ";
+    cout << "ingrese el nombre de la ciudad: ";
     cin >> cityy;
 
     cout << "multas registradas en la ciudad de " << cityy << ": " << endl;
