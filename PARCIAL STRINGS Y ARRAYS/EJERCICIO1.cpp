@@ -20,8 +20,8 @@ void counterWordsAndTheLargest(){
     }
 
     string newWords[counterWords];
-    string longestWord;
-    string currentWord;
+    string longestWord = "";
+    string currentWord = "";
     for (int n = 0; n < sentence.size(); n++)
     {
         char letter = sentence[n];
