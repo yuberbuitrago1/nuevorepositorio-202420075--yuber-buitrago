@@ -201,7 +201,7 @@ class intOfArrayManager {
         default:
                 cout << endl << "opcion no valida" << endl;
             break;
-        }
+            }
         }
         
     }
