@@ -29,7 +29,7 @@ class intOfArrayManager {
         cin >> positionToModify;
 
         //crea un contador para que encuentre la palabra s buscar
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < arraySize; i++)
         {
             if (products[i] == positionToModify)
             {
